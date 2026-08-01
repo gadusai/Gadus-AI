@@ -1,0 +1,44 @@
+Build a powerful AI assistant web app called Gadus — a next-generation AI platform combining the assistive intelligence of Claude and the creative power of Grok. Gadus should feel premium, fast, and capable of handling anything a user throws at it.
+Design: Dark theme, deep black and emerald green accents, clean modern fonts, smooth animations, glassmorphism UI elements, fully responsive for mobile and desktop.
+Core Modes in the sidebar:
+General Assistant — answers anything, explains complex topics, brainstorms ideas
+Deep Research — market analysis, academic research, competitor analysis, data synthesis, structured reports
+Creative Writing — stories, scripts, poems, ad copy, blog posts, newsletters
+Content Creation — social media captions, content calendars, YouTube scripts, podcast outlines
+Outreach & Sales — cold emails, LinkedIn messages, PR pitches, sales scripts, follow-ups
+Image Prompt Generator — generates detailed prompts for DALL-E, Midjourney, Stable Diffusion
+Social Media Manager — platform-specific content for Instagram, Twitter, LinkedIn, TikTok, Facebook
+Business Strategy — business plans, SWOT analysis, pitch decks, investor memos
+Code Assistant — write, debug, explain code in any language
+Data Analyst — interpret data, suggest visualizations, write analysis reports
+Personal Productivity — task planning, goal setting, habit tracking advice, time management
+Legal & Finance — contract summaries, financial planning advice, investment research
+Features to build:
+Persistent chat history saved to database per mode
+User can start new conversations and delete old ones
+Markdown rendering with code highlighting
+Copy to clipboard on all responses
+Character and word count on responses
+Export conversation as PDF or text file
+Dark and light mode toggle
+Mobile-friendly collapsible sidebar
+Loading animation that says 'Gadus is thinking...'
+Welcome screen per mode with tailored starter prompts
+Search conversation history
+AI Backend:
+Connect to Groq API using model llama-3.3-70b-versatile as primary brain
+Each mode has its own detailed system prompt that makes Gadus behave like an expert in that area
+Fallback to intelligent template responses if API is unavailable
+Use GROQ_API_KEY as the environment secret
+Stream responses in real time so text appears as it's generated
+Database:
+Save all conversations and messages to Bolt Database
+Each conversation linked to a mode
+Timestamps on all messages
+Branding:
+App name: Gadus
+Tagline: 'Your AI. Amplified.'
+Footer: Powered by Gadus
+Favicon and page title should say Gadus
+Remove all Bolt branding
+Build this as a production-ready React TypeScript app with Tailwind CSS. Make it look and feel like a premium AI product worth paying for."
