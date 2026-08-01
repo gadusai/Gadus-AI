@@ -1,0 +1,3 @@
+- [Gadus feature set](gadus-features.md) — what's built vs missing; avoid re-building things that exist.
+- [Gadus streaming abort](gadus-streaming-abort.md) — AbortController pattern used in stream.ts + ChatArea.
+- [Gadus DB schema notes](gadus-db-schema.md) — TypeScript project references; must build lib/db before api-server tsc check.
