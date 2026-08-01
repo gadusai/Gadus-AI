@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "gitsafe-backup"]
+	url = git://gitsafe:5418/backup.git
+	fetch = +refs/heads/*:refs/remotes/gitsafe-backup/*
+	lfsurl = http://gitsafe:5419
+[lfs "http://gitsafe:5419"]
+	locksverify = false
+[remote "subrepl-gjcr4sli"]
+	url = git+ssh://git@ssh.janeway.replit.dev:/home/runner/workspace
+	fetch = +refs/heads/*:refs/remotes/subrepl-gjcr4sli/*
+	lfsurl = ssh://git@ssh.janeway.replit.dev/home/runner/workspace
+[lfs]
+	repositoryformatversion = 0
